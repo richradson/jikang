@@ -1,0 +1,146 @@
+body, html {
+ height: 100%;
+ font-family: "微软雅黑";
+}
+
+p {
+ margin: 0
+}
+
+.content {
+ min-height: 100%;
+ padding: 10px;
+}
+
+.wrap {
+ min-height: 100%;
+ background: url(../img/doctor/tou.jpg) 0 0 no-repeat,url(../img/doctor/wei.jpg) 0 100% no-repeat,url(../img/doctor/yin.jpg) 0 0 repeat-y;
+ background-size: 100% auto;
+ box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.17);
+ padding-bottom: 60px;
+}
+
+.wrap_qn {
+ /*min-height: 100%;*/
+ background: url(https://comres.cndocsys.cn/licensedisp/images/doctor_mobile/tou.jpg) 0 0 no-repeat,url(https://comres.cndocsys.cn/licensedisp/images/doctor_mobile/wei.jpg) 0 100% no-repeat,url(https://comres.cndocsys.cn/licensedisp/images/doctor_mobile/yin.jpg) 0 0 repeat-y;
+ background-size: 100% auto;
+ box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.17);
+ padding-bottom: 60px;
+}
+
+.head {
+ float: right;
+ width: 60px;
+ height: 82px;
+ margin-top: 2px;
+}
+
+.title {
+ margin-top: 64px;
+ display: inline-block;
+ text-align: center;
+ width: 100%;
+}
+
+ .title div {
+     width: 210px;
+     height: 25px;
+     line-height: 25px;
+     font-size: 23px;
+     display: inline-block;
+     font-family: 'Microsoft YaHei';
+     font-weight: bold;
+     letter-spacing: 5px;
+ }
+
+.main {
+ padding-left: 40px;
+ padding-right: 40px;
+ margin-top: 26px;
+}
+
+.key {
+ color: #0064cb;
+ font-size: 14px;
+ white-space: nowrap;
+}
+
+.value {
+ color: #000;
+ font-size: 14px;
+ word-wrap: break-word;
+}
+
+.li {
+ margin-bottom: 10px;
+}
+
+.Bli {
+ margin-bottom: 8px;
+ overflow: hidden;
+}
+
+.block {
+ margin-bottom: 36px;
+}
+
+.flexBlock {
+ margin-top: 40px;
+}
+
+.Btitle {
+ color: #0064cd;
+ font-size: 16px;
+ margin-bottom: 15px;
+}
+
+.BWrapBlock {
+ margin-bottom: 20px;
+}
+
+.er {
+ text-align: center;
+ margin-top: 56px;
+ margin-bottom: 20px;
+}
+
+ .er img {
+     width: 86px;
+     height: 86px;
+ }
+
+.fkey {
+ color: #333;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.fvalue {
+ color: #333;
+ font-size: 14px;
+}
+
+.footer {
+ padding-left: 40px;
+ padding-right: 40px;
+}
+
+.Bli .key {
+ float: left;
+ width: 25%;
+}
+
+.Bli .value {
+ float: left;
+ width: 75%;
+}
+
+.fkey {
+ float: left;
+ width: 25%;
+}
+
+.fvalue {
+ float: left;
+ /*width: 75%;*/
+}
